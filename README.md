@@ -24,6 +24,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 ## Array
 |  |
 | ------- |
+| [0055-jump-game](https://github.com/Jimin15/Ps/tree/master/0055-jump-game) |
 | [0200-number-of-islands](https://github.com/Jimin15/Ps/tree/master/0200-number-of-islands) |
 ## Union-Find
 |  |
@@ -33,4 +34,12 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/Jimin15/Ps/tree/master/0200-number-of-islands) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0055-jump-game](https://github.com/Jimin15/Ps/tree/master/0055-jump-game) |
+## Greedy
+|  |
+| ------- |
+| [0055-jump-game](https://github.com/Jimin15/Ps/tree/master/0055-jump-game) |
 <!---LeetCode Topics End-->
