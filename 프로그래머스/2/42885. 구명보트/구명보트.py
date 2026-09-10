@@ -10,7 +10,7 @@ def solution(people, limit):
     if l==r:
         return 1
     
-    #people에있는 값들을 더하기
+    #people에있는 값들을 더하 기
     while l<r:
         #더한 값이 limit보다 크면 
         if people[l] + people[r] > limit:
