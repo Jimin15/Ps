@@ -2,7 +2,7 @@ def solution(brown, yellow):
     # 전체 격자 수
     total = brown + yellow
 
-    # 세로 길이부터 확인
+    # 세로 길이 확인
     for height in range(3, int(total ** 0.5) + 1):
         # 전체 격자 수로 나누어 떨어지는 경우만 확인
         if total % height == 0:
