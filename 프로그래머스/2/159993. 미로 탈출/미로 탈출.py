@@ -53,7 +53,7 @@ def solution(maps):
     if first == -1:
         return -1
 
-    # 레버에서 출구까지
+    # 레버에서  출구까지
     second = bfs(lever, end)
 
     if second == -1:
