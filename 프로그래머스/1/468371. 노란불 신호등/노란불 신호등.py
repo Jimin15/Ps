@@ -14,10 +14,10 @@ def solution(signals):
             cycle = g + y + r
 
             # 현재 신호등이 주기 안에서 몇 번째 위치인지
-            pos = (t - 1) % cycle
+            pos = (t - 1) % cycle +1
 
             # 노란불 범위가 아니면
-            if not (g <= pos < g + y):
+            if not (g < pos <= g + y):
                 all_yellow = False
                 break
 
