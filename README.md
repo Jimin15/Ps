@@ -28,6 +28,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | ------- |
 | [0055-jump-game](https://github.com/Jimin15/Ps/tree/master/0055-jump-game) |
 | [0200-number-of-islands](https://github.com/Jimin15/Ps/tree/master/0200-number-of-islands) |
+| [0704-binary-search](https://github.com/Jimin15/Ps/tree/master/0704-binary-search) |
 | [0733-flood-fill](https://github.com/Jimin15/Ps/tree/master/0733-flood-fill) |
 ## Union-Find
 |  |
@@ -46,4 +47,8 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [0055-jump-game](https://github.com/Jimin15/Ps/tree/master/0055-jump-game) |
+## Binary Search
+|  |
+| ------- |
+| [0704-binary-search](https://github.com/Jimin15/Ps/tree/master/0704-binary-search) |
 <!---LeetCode Topics End-->
