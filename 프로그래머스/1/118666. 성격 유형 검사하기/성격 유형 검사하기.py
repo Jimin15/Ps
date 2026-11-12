@@ -1,16 +1,8 @@
 def solution(survey, choices):
-    answer = ''
+    
     
     # 사전으로 점수 저장 {}
-    score = dict()
-    score['R'] = 0
-    score['T'] = 0
-    score['C'] = 0
-    score['F'] = 0
-    score['J'] = 0
-    score['M'] = 0
-    score['A'] = 0
-    score['N'] = 0
+    score = {c: 0 for c in "RTCFJMAN"}
     
     answer = ''
     
@@ -28,36 +20,11 @@ def solution(survey, choices):
     
     
     # R,T점수 비교
-    if score['R']>score['T']:
-        answer+='R'
-    elif score['R']<score['T']:
-        answer+='T'
-    else:
-        answer+='R'
-
-    # C,F점수 비교
-    if score['C']>score['F']:
-        answer+='C'
-    elif score['C']<score['F']:
-        answer+='F'
-    else:
-        answer+='C'
-
-    # J,M점수 비교
-    if score['J']>score['M']:
-        answer+='J'
-    elif score['J']<score['M']:
-        answer+='M'
-    else:
-        answer+='J'
-
-    # A,N점수 비교
-    if score['A']>score['N']:
-        answer+='A'
-    elif score['A']<score['N']:
-        answer+='N'
-    else:
-        answer+='A'
+    for a, b in ['RT', 'CF', 'JM', 'AN']:
+        if score[a] >= score[b]:
+            answer += a
+        else:
+            answer += b
 
     
     
